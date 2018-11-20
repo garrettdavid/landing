@@ -1,0 +1,68 @@
+nav {
+  background-color: #5480AA;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  min-height: 5vh;
+  margin-right: 2vw;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav img {
+  flex-basis: 10%;
+  max-width: 6%;
+  margin-left: 2vw;
+}
+
+.nav h1 {
+  margin-left: 1vw;
+  margin-right: auto;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 1vmin 1.5vmax;
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 499px) {
+  nav {
+    background-color: rgb(48, 153, 27);
+  }
+}
+
+body {
+  padding-top: 5vh;
+  font-family: 'Niramit', sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+}
+
+#info, #signup, #pricing {
+  margin: 4%;
+}
+
+.product {
+  max-width: 25vw;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.product p {
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+}
